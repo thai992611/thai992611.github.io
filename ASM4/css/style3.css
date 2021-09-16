@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 80%;
+    background-image: url(../img/myblog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    display: grid;
+    place-items: center;
+    width: 50%;
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.button {
+    padding: 10px;
+    color: rgb(14, 15, 12);
+    background-color: rgb(240, 240, 240);
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url("../img/myblog2.jpg");
+    }
+}

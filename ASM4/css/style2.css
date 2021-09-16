@@ -1,0 +1,56 @@
+ @charset "uft_8";
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: rgb(243, 200, 213);
+     text-align: center;
+     font-family: 'Source Code Pro', monospace;
+     height: 90%;
+     margin-bottom: 2em;
+ }
+ 
+ header {
+     background-color: rgb(120, 63, 224);
+     height: min-content;
+ }
+ 
+ h3 {
+     margin-top: 1em;
+ }
+ 
+ .text1 {
+     float: left;
+ }
+ 
+ .text1 img {
+     float: left;
+     border-radius: 50px;
+ }
+ 
+ .text1::after {
+     content: "";
+     display: table;
+ }
+ 
+ .textp {
+     padding-top: 3em;
+ }
+ 
+ .text2>p>img {
+     padding-bottom: 2em;
+ }
+ 
+ @media screen and(min-width:520px) {
+     body {
+         background-color: rgb(33, 204, 18);
+         text-align: center;
+         margin-bottom: 2em;
+         padding-left: 20px;
+         width: 100%;
+     }
+     .img {
+         width: 200px;
+     }
+ }
