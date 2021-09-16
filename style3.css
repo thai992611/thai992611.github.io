@@ -11,6 +11,11 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+.share-body {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 h1 {
     display: grid;
     place-items: center;
@@ -26,17 +31,32 @@ textarea {
     border-radius: 4px;
     background-color: #f8f8f8;
     font-size: 16px;
+    outline: none;
     resize: none;
 }
 
 .button {
-    padding: 10px;
-    color: rgb(14, 15, 12);
-    background-color: rgb(240, 240, 240);
+    color: #fff;
+    background-color: #FC9090;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    transition: all .2s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    transform: translateX(-2px);
+}
+
+.button:active {
+    transform: translateX(4px);
 }
 
 @media screen and (max-width: 500px) {
     body {
-        background-image: url("mg/myblog2.jpg");
+        background-image: url("myblog2.jpg");
     }
 }
