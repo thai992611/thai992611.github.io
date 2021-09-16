@@ -4,7 +4,7 @@
 
 body {
     height: 80%;
-    background-image: url(../img/myblog.jpg);
+    background-image: url(myblog.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -37,6 +37,6 @@ textarea {
 
 @media screen and (max-width: 500px) {
     body {
-        background-image: url("../img/myblog2.jpg");
+        background-image: url("mg/myblog2.jpg");
     }
 }

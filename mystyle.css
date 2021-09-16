@@ -11,7 +11,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: medium;
     font-weight: 500;
-    background-image: url('../img/bgcafe.jpg');
+    background-image: url('bgcafe.jpg');
     background-size: 100% 100%;
 }
 
