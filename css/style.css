@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background-image: url("bgfood1.jpg");
+    background-image: url("../img/bgfood1.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -103,6 +103,18 @@ body {
     left: 50%;
 }
 
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 5px;
+    margin: 0;
+    color: whitesmoke;
+    font: 16px Rajdhani;
+    text-align: center;
+    background-color: rgb(69, 175, 170);
+    height: 30%;
+}
+
 @media screen and (max-width: 1350px) {
     .block-text {
         width: 43%;
@@ -143,7 +155,7 @@ body {
     .header-name {
         font-size: 5rem;
         font-weight: 400;
-        color: #fff;
+        color: #dd0808e8;
         border: 2px solid #fff;
         padding: 2rem 4rem;
     }

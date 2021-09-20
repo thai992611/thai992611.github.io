@@ -4,15 +4,15 @@
  }
  
  body {
-     background-color: rgb(243, 200, 213);
+     background-color: whitesmoke;
+     width: 100%;
      text-align: center;
      font-family: 'Source Code Pro', monospace;
-     height: 90%;
      margin-bottom: 2em;
  }
  
  header {
-     background-color: rgb(120, 63, 224);
+     background: linear-gradient(#e66465, #9198e5);
      height: min-content;
  }
  
@@ -38,19 +38,6 @@
      padding-top: 3em;
  }
  
- .text2>p>img {
+ .text2 img {
      padding-bottom: 2em;
- }
- 
- @media screen and(min-width:520px) {
-     body {
-         background-color: rgb(33, 204, 18);
-         text-align: center;
-         margin-bottom: 2em;
-         padding-left: 20px;
-         width: 100%;
-     }
-     .img {
-         width: 200px;
-     }
  }
